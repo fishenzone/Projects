@@ -4,10 +4,10 @@ This repository contains data analysis projects and corresponding source code. T
 
 ## Table of Contents
 
-- ### [Projects](#projects)
-- ###  [Certificates](#certificates)
-- ### [Acknowledgements](#acknowledgements)
-- ### [Contact](#contact)
+- **[Projects](#projects)**
+- **[Certificates](#certificates)**
+- **[Acknowledgements](#acknowledgements)**
+- **[Contact](#contact)**
 
 ## Projects
 
