@@ -2,6 +2,7 @@
 
 This repository contains data analysis projects and corresponding source code. The majority of the analysis was conducted using NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
 
+<<<<<<< HEAD
 ---
 > ## Table of Contents
 ---
@@ -9,6 +10,14 @@ This repository contains data analysis projects and corresponding source code. T
 - ###  [Certificates](#certificates)
 - ### [Acknowledgements](#acknowledgements)
 - ### [Contact](#contact)
+=======
+## Table of Contents
+
+- **[Projects](#projects)**
+- **[Certificates](#certificates)**
+- **[Acknowledgements](#acknowledgements)**
+- **[Contact](#contact)**
+>>>>>>> 75361fab71cca50faf81e35e6b1f8fe46646080d
 
 ---
 > ## Projects
