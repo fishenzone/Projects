@@ -3,14 +3,12 @@
 This repository contains data analysis projects and corresponding source code. The majority of the analysis was conducted using NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
 
 ## Table of Contents
----
 - ### [Projects](#projects)
 - ###  [Certificates](#certificates)
 - ### [Acknowledgements](#acknowledgements)
 - ### [Contact](#contact)
 
 ## Projects
----
 - #### [Sea Level Predictor](https://github.com/fishenzone/portfolio/blob/main/sea-level-predictor.ipynb 'Sea Level Predictor')
     - Analyzing a **[dataset](https://raw.githubusercontent.com/fishenzone/portfolio/main/data/epa-sea-level.csv 'CSV file Sea Level')** of the global average sea-level change since 1880 and predicting the sea-level change through the year 2050.
 - #### [Page View Time Series Visualizer](https://github.com/fishenzone/portfolio/blob/main/page-view-time-series-visualizer.ipynb 'Page View Time Series Visualizer')
@@ -23,7 +21,6 @@ This repository contains data analysis projects and corresponding source code. T
 > _Tools: NumPy, Pandas, Seaborn, Matplotlib_ 
 
 ## Certificates
----
 - #### [Data Analysis with Python](https://www.freecodecamp.org/certification/fishenzone/data-analysis-with-python-v7 'Data Analysis with Python Certificate')
 - #### [Scientific Computing with Python](https://www.freecodecamp.org/certification/fishenzone/scientific-computing-with-python-v7 'Scientific Computing with Python Certificate')
 - #### [Legacy Full Stack](https://www.freecodecamp.org/certification/fishenzone/full-stack 'Legacy Full Stack Certificate')
@@ -36,10 +33,8 @@ This repository contains data analysis projects and corresponding source code. T
 - #### [Responsive Web Design](https://www.freecodecamp.org/certification/fishenzone/responsive-web-design 'Responsive Web Design Certificate')
 
 ## Acknowledgements
----
 Many thanks to ***[freeCodeCamp](https://www.freecodecamp.org/learn 'freeCodeCamp')***
 
 ## Contact
----
  Created by ***[Fishenzone](https://github.com/fishenzone 'Fishenzone')*** - feel free to contact me!
 
