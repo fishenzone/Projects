@@ -1,6 +1,6 @@
-# Data Analyst Portfolio
+# Data Scientist Portfolio
 
-This repository contains data analysis projects and corresponding source code. The majority of the analysis was conducted using NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
+This repository contains data science projects and corresponding source code. They were all created as part of freeCodeCamp's Machine Learning with Python Certification. The majority of the analysis was conducted using Keras, TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
 
 ## Table of Contents
 
@@ -11,19 +11,20 @@ This repository contains data analysis projects and corresponding source code. T
 
 ## Projects
 
-- #### [Sea Level Predictor](https://github.com/fishenzone/portfolio/blob/main/sea-level-predictor.ipynb 'Sea Level Predictor')
-    - Analyzing a **[dataset](https://raw.githubusercontent.com/fishenzone/portfolio/main/data/epa-sea-level.csv 'CSV file Sea Level')** of the global average sea-level change since 1880 and predicting the sea-level change through the year 2050.
-- #### [Page View Time Series Visualizer](https://github.com/fishenzone/portfolio/blob/main/page-view-time-series-visualizer.ipynb 'Page View Time Series Visualizer')
-    - Using Pandas, matplotlib, and seaborn to visualize a **[dataset](https://raw.githubusercontent.com/fishenzone/portfolio/main/data/fcc-forum-pageviews.csv 'CSV file Page View Time Series')** containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03.
-- #### [Medical Data Visualizer](https://github.com/fishenzone/portfolio/blob/main/medical-data-visualizer.ipynb 'Medical Data Visualizer')
-    - Visualizing and making calculations from medical examination **[data](https://raw.githubusercontent.com/fishenzone/portfolio/main/data/medical_examination.csv 'CSV file Medical Data')** using matplotlib, seaborn, and pandas.
-- #### [Demographic Data Analyzer](https://github.com/fishenzone/portfolio/blob/main/demographic-data-analyzer.ipynb 'Demographic Data Analyzer')
-    - Analysis of a dataset of demographic **[data](https://raw.githubusercontent.com/fishenzone/portfolio/main/data/adult.data.csv 'CSV file Demographic Data')** using Pandas.
+- #### [Predict Health Costs With Regression](https://colab.research.google.com/drive/1Tusv081wHyH4MpFr7t4kA2_oKTCiZ786?usp=sharing 'Predict Health Costs With Regression')
+    - Predicting healthcare costs using a regression algorithm.
+- #### [Book Recommendation](https://colab.research.google.com/drive/1o6m_V5c2nHp_Np4dinsdUZvBhvHuM3gt?usp=sharing 'Book Recommendation')
+    - Creating a book recommendation algorithm using K-Nearest Neighbors.
+- #### [SMS Text Classification](https://colab.research.google.com/drive/10wrumrd2B4UCPy54EVHoArngnKD-SS5Y?usp=sharing 'SMS Text Classification')
+    -  Creating a machine learning model that will classify SMS messages as either "ham" or "spam".
+- #### [Cat Dog classification](https://colab.research.google.com/drive/1nvCip8xRLMN0xGyuRojHWFl88DmCLAYP?usp=sharing 'Cat Dog classification')
+    - Creating a CNN to correctly classify images of cats and dogs. 
 
-> _Tools: NumPy, Pandas, Seaborn, Matplotlib_ 
+> _Tools: Keras, TensorFlow, scikit-learn, NumPy, Pandas, Seaborn, Matplotlib_ 
 
 ## Certificates
 
+- #### [Machine Learning with Python](https://www.freecodecamp.org/certification/fishenzone/machine-learning-with-python-v7 'Machine Learning with Python')
 - #### [Data Analysis with Python](https://www.freecodecamp.org/certification/fishenzone/data-analysis-with-python-v7 'Data Analysis with Python Certificate')
 - #### [Scientific Computing with Python](https://www.freecodecamp.org/certification/fishenzone/scientific-computing-with-python-v7 'Scientific Computing with Python Certificate')
 - #### [Legacy Full Stack](https://www.freecodecamp.org/certification/fishenzone/full-stack 'Legacy Full Stack Certificate')
