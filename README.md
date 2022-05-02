@@ -1,6 +1,6 @@
 # Data Scientist Portfolio
 
-This repository contains data science projects and corresponding source code. They were all created as part of the *freeCodeCamp's* [Machine Learning with Python Certification](https://www.freecodecamp.org/learn/machine-learning-with-python/ 'Machine Learning with Python Certification'). The majority of the analysis was conducted using Keras, TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
+This repository contains data science projects and corresponding source code. They were all created as part of the *freeCodeCamp* [Machine Learning with Python Certification](https://www.freecodecamp.org/learn/machine-learning-with-python/ 'Machine Learning with Python Certification'). The majority of the analysis was conducted using Keras, TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
 
 ## Table of Contents
 
