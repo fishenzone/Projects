@@ -1,4 +1,6 @@
-# Data Scientist Portfolio
+# Projects
+
+<!-- 
 
 This repository contains data science projects and corresponding source code. They were all created as part of the *freeCodeCamp* [Machine Learning with Python Certification](https://www.freecodecamp.org/learn/machine-learning-with-python/ 'Machine Learning with Python Certification'). The majority of the analysis was conducted using Keras, TensorFlow, scikit-learn, NumPy, Pandas, Matplotlib, Seaborn and presented in the form of iPython Notebooks.
 
@@ -27,14 +29,14 @@ This repository contains data science projects and corresponding source code. Th
 - #### [Machine Learning with Python](https://www.freecodecamp.org/certification/fishenzone/machine-learning-with-python-v7 'Machine Learning with Python')
 - #### [Data Analysis with Python](https://www.freecodecamp.org/certification/fishenzone/data-analysis-with-python-v7 'Data Analysis with Python Certificate')
 - #### [Scientific Computing with Python](https://www.freecodecamp.org/certification/fishenzone/scientific-computing-with-python-v7 'Scientific Computing with Python Certificate')
-<!-- - #### [Legacy Full Stack](https://www.freecodecamp.org/certification/fishenzone/full-stack 'Legacy Full Stack Certificate')
+- #### [Legacy Full Stack](https://www.freecodecamp.org/certification/fishenzone/full-stack 'Legacy Full Stack Certificate')
 - #### [Quality Assurance](https://www.freecodecamp.org/certification/fishenzone/quality-assurance-v7 'Quality Assurance Certificate')
 - #### [Legacy Information Security and Quality Assurance](https://www.freecodecamp.org/certification/fishenzone/information-security-and-quality-assurance 'Legacy Information Security and Quality Assurance Certificate')
 - #### [Data Visualization](https://www.freecodecamp.org/certification/fishenzone/data-visualization 'Data Visualization Certificate')
 - #### [APIs and Microservices](https://www.freecodecamp.org/certification/fishenzone/apis-and-microservices 'APIs and Microservices Certificate')
 - #### [Front End Libraries](https://www.freecodecamp.org/certification/fishenzone/front-end-libraries 'Front End Libraries Certificate')
 - #### [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fishenzone/javascript-algorithms-and-data-structures 'JavaScript Algorithms and Data Structures Certificate')
-- #### [Responsive Web Design](https://www.freecodecamp.org/certification/fishenzone/responsive-web-design 'Responsive Web Design Certificate') -->
+- #### [Responsive Web Design](https://www.freecodecamp.org/certification/fishenzone/responsive-web-design 'Responsive Web Design Certificate') 
 
 ## Acknowledgements
 
@@ -44,3 +46,4 @@ Many thanks to ***[freeCodeCamp](https://www.freecodecamp.org/learn 'freeCodeCam
 
 Created by ***[Fishenzone](https://github.com/fishenzone 'Fishenzone')*** - feel free to contact me!
 
+ -->
