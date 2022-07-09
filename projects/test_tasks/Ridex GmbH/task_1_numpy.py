@@ -16,8 +16,9 @@ from matplotlib.image import imread
 from PIL import Image, ImageFilter, ImageDraw, ImageOps
 import IPython.display as display
 import random
+
 # %matplotlib inline
-plt.style.use('dark_background')
+plt.style.use("dark_background")
 
 """# Задание #1 Numpy
 ## Инструменты для выполнения задания
@@ -46,14 +47,16 @@ plt.style.use('dark_background')
 lst = [*range(0, 100_000_001, 1)]
 ndarray = np.arange(0, 100_000_001, 1)
 
-print(f'Type of first variable: {type(lst)}\nType of second variable: {type(ndarray)}')
+print(f"Type of first variable: {type(lst)}\nType of second variable: {type(ndarray)}")
 
 """2. Напишите функцию, которая вычисляет сумму всех элементов массива, используя цикл for."""
 
+
 def sum_for(array):
-  sum = 0
-  for i in array:
-    sum += i
+    sum = 0
+    for i in array:
+        sum += i
+
 
 """3. Замерьте: время выполнения этой функции на списке и на массиве, время выполнения функции sum() на списке и на массиве, время выполнения функции numpy.sum() на списке и на массиве."""
 
@@ -76,38 +79,40 @@ Numpy массив в цикле и python function sum показал скор�
 5. Загрузите и  выведите на экран картинку autodoc.png. *Используйте библиотеки skimage и matplotlib.*
 """
 
-image = io.imread('autodoc.png')
-io.imshow(image) 
+image = io.imread("autodoc.png")
+io.imshow(image)
 io.show()
 
 """6. Получите и интерпретируйте размеры картинки."""
 
+
 class image_:
-  def __init__(self, image, draw, width, height, pix):
-    self.image = image
-    self.draw = draw
-    self.width = width
-    self.height = height
-    self.pix = pix
+    def __init__(self, image, draw, width, height, pix):
+        self.image = image
+        self.draw = draw
+        self.width = width
+        self.height = height
+        self.pix = pix
+
 
 def image_val():
-  image = Image.open('autodoc.png').convert('RGB')
-  draw = ImageDraw.Draw(image) 
-  width = image.size[0]  
-  height = image.size[1]  
-  pix = image.load()
-  return (image, draw, width, height, pix)
+    image = Image.open("autodoc.png").convert("RGB")
+    draw = ImageDraw.Draw(image)
+    width = image.size[0]
+    height = image.size[1]
+    pix = image.load()
+    return (image, draw, width, height, pix)
+
 
 image = image_(*image_val()).image
 width, height = image.size
-print(f'Width: {width}\nHeight: {height}')
+print(f"Width: {width}\nHeight: {height}")
 
 """Well, the class I've written was most certainly useless.
-
 Anyway, here's another appoach.
 """
 
-print(f'Width: {image_val()[0].size[0]}\nHeight: {image_val()[0].size[1]}')
+print(f"Width: {image_val()[0].size[0]}\nHeight: {image_val()[0].size[1]}")
 
 """7. Выведите верхнюю и левую половины изображения. 
 
@@ -128,28 +133,28 @@ rows, columns = 2, 2
 
 fig.add_subplot(rows, columns, 1)
 plt.imshow(im_top)
-plt.axis('off')
-plt.title('Top half')
+plt.axis("off")
+plt.title("Top half")
 
 fig.add_subplot(rows, columns, 2)
 plt.imshow(im_left)
-plt.axis('off')
-plt.title('Left half')
+plt.axis("off")
+plt.title("Left half")
 
 fig.add_subplot(rows, columns, 3)
 plt.imshow(im_top_left)
-plt.axis('off')
-plt.title('Top left half')
+plt.axis("off")
+plt.title("Top left half")
 
 fig.add_subplot(rows, columns, 4)
 plt.imshow(im_random)
-plt.axis('off')
-plt.title('Random rectangle')
-plt.show();
+plt.axis("off")
+plt.title("Random rectangle")
+plt.show()
 
 """9. Выведите каждый канал изображения отдельно."""
 
-print(f'Every channel separately: {image.getbands()}')
+print(f"Every channel separately: {image.getbands()}")
 
 """10. Получите черно-белое изображение путем усреднения по каналам. *Сначала самостоятельно реализуйте усреднение, затем правильно воспользуйтесь функцией numpy.mean()* 
 11. Получите негатив для черно-белого изображения.
@@ -160,100 +165,108 @@ print(f'Every channel separately: {image.getbands()}')
 Без цикла.
 """
 
-compr = tuple(int(x/1.8) for x in image.size)
-Image.open('autodoc.png').convert('L').resize(compr)
+compr = tuple(int(x / 1.8) for x in image.size)
+Image.open("autodoc.png").convert("L").resize(compr)
 
 """###*Negative* from black n white image
 
 Без цикла.
 """
 
-ImageOps.invert(Image.open('autodoc.png').convert('L')).resize(compr)
+ImageOps.invert(Image.open("autodoc.png").convert("L")).resize(compr)
 
 """### Binarize BW image with threshold
 
 Без цикла. Или...
 """
 
-threshold = int(66*random.random())
-Image.open('autodoc.png').convert('RGB').convert('L').point(lambda x: 255 if x > threshold else 0).resize(compr)
+threshold = int(66 * random.random())
+Image.open("autodoc.png").convert("RGB").convert("L").point(
+    lambda x: 255 if x > threshold else 0
+).resize(compr)
 
 """Как я понял вам нравятся циклы, поэтому я написал функцию со множеством циклов.Она выдает правильные результаты на 10, 11 и 12 задания, т.е. тоже самое, что я сделал и выше. Но! С циклами!"""
 
+
 def image_action(action):
-  image, draw, width, height, pix = image_val()
-  w,h = image.size
-  compr = tuple(int(x/1.8) for x in image.size)
+    image, draw, width, height, pix = image_val()
+    w, h = image.size
+    compr = tuple(int(x / 1.8) for x in image.size)
 
-  for x in range(width):
-    for y in range(height):
-      r, g, b = pix[x, y]
-      
-      if action == 'bn':
-        threshold = int(66*random.random())
+    for x in range(width):
+        for y in range(height):
+            r, g, b = pix[x, y]
 
-        if (r+g+b) > threshold:
-          sr = (r + g + b) // 3
-          draw.point((x, y), (255-sr, 255-sr, 255-sr))
+            if action == "bn":
+                threshold = int(66 * random.random())
 
-        else:
-          sr = (r + g + b) // 3
-          draw.point((x, y), (sr, sr, sr))
+                if (r + g + b) > threshold:
+                    sr = (r + g + b) // 3
+                    draw.point((x, y), (255 - sr, 255 - sr, 255 - sr))
 
-      else:
-        sr = (r + g + b) // 3 
+                else:
+                    sr = (r + g + b) // 3
+                    draw.point((x, y), (sr, sr, sr))
 
-        if action == 'bw':
-          draw.point((x, y), (sr, sr, sr))
+            else:
+                sr = (r + g + b) // 3
 
-        elif action == 'inv':
-          draw.point((x, y), (255 - sr, 255 - sr, 255 - sr))
+                if action == "bw":
+                    draw.point((x, y), (sr, sr, sr))
 
-        else:
-          raise ValueError('You\'re 100 years too early to be ready to handle this funtion!')
-  
-  return image.resize(compr)
+                elif action == "inv":
+                    draw.point((x, y), (255 - sr, 255 - sr, 255 - sr))
 
-print('\nBlack and White Image\n')
-image_action('bw')
+                else:
+                    raise ValueError(
+                        "You're 100 years too early to be ready to handle this funtion!"
+                    )
 
-print('\nNegative image\n')
-image_action('inv')
+    return image.resize(compr)
 
-print('\nBinary image with threshold\n')
-image_action('bn')
+
+print("\nBlack and White Image\n")
+image_action("bw")
+
+print("\nNegative image\n")
+image_action("inv")
+
+print("\nBinary image with threshold\n")
+image_action("bn")
 
 """Same, but using the Power Of Libraries. And ... with loops."""
 
+
 def image_action_V2(action):
-  image = Image.open('autodoc.png').convert('RGB').convert('L')
-  compr = tuple(int(x/1.8) for x in image.size)
-  
-  if action == 'bn':
-    threshold = int(66*random.random())
-    return image.point(lambda x: 255 if x > threshold else 0).resize(compr)
+    image = Image.open("autodoc.png").convert("RGB").convert("L")
+    compr = tuple(int(x / 1.8) for x in image.size)
 
-  elif action == 'inv':
-    return ImageOps.invert(image).resize(compr)
+    if action == "bn":
+        threshold = int(66 * random.random())
+        return image.point(lambda x: 255 if x > threshold else 0).resize(compr)
 
-  else:
-    return image.resize(compr)
+    elif action == "inv":
+        return ImageOps.invert(image).resize(compr)
 
-print('\nBlack and White Image\n')
-image_action_V2('bw')
+    else:
+        return image.resize(compr)
 
-print('\nNegative from BW image\n')
-image_action_V2('inv')
 
-print('\nBinary image of BW image with threshold\n')
-image_action_V2('bn')
+print("\nBlack and White Image\n")
+image_action_V2("bw")
+
+print("\nNegative from BW image\n")
+image_action_V2("inv")
+
+print("\nBinary image of BW image with threshold\n")
+image_action_V2("bn")
 
 """13. Уменьшите цветное изображение в 2 раза. *Используйте самый элементарный способ*.
 
 До этого момента я уменьшал все картинки в 1.8 раза. Это было сделано чисто для вашего/моего удобства. Чтож уменьшим теперь в 2 раза.
 """
 
-Image.open('autodoc.png').convert('RGB').resize(tuple(int(x/2) for x in image.size))
+Image.open("autodoc.png").convert("RGB").resize(tuple(int(x / 2) for x in image.size))
 
 """14. Отразите цветное изображение по любой из осей.
 15. Поверните на 90 градусов и отразите цветное изображение за константное время.
@@ -265,24 +278,21 @@ image.rotate(90).resize(compr)
 
 """16. Преобразуйте картинку в матрицу, где строка - это пиксель изображения, а столбцы - это кординаты и значение RGB этого пикселя."""
 
-image = np.array(Image.open('autodoc.png').convert('RGB'))
+image = np.array(Image.open("autodoc.png").convert("RGB"))
 x, y, z = image.shape
 
-indices = np.vstack(np.unravel_index(np.arange(x*y), (y, x))).T
-np.hstack((image.reshape(x*y, z), indices))[:10,:]
+indices = np.vstack(np.unravel_index(np.arange(x * y), (y, x))).T
+np.hstack((image.reshape(x * y, z), indices))[:10, :]
 
-np.vstack(np.unravel_index(np.arange(x*y), (y, x))).T
-
-
+np.vstack(np.unravel_index(np.arange(x * y), (y, x))).T
 
 
-
-image = imread('autodoc.png')
+image = imread("autodoc.png")
 image.shape
 
 image, draw, width, height, pix = image_val()
 
-np.vstack(np.unravel_index(np.arange(x*y), (y, x))).T
+np.vstack(np.unravel_index(np.arange(x * y), (y, x))).T
 
 """## Оформление
 Изучите и строго следуйте [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). Используйте возможности jupyter notebook для оформления отчета. Оформление кода и задачи в целом также учитывается.
