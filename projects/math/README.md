@@ -296,5 +296,6 @@
 - Дифференциальные уравнения, примеры, решения - **_in progress_**
 - Ряды, исследование рядов на сходимость - **_in progress_**
 - Ряды, исследование рядов на сходимость - **_in progress_**
+- Ряды, исследование рядов на сходимость - **_in progress_**
 
 <!-- > **_Tools: Python, PIL, scikit-learn, NumPy, Pandas, Seaborn, Matplotlib_** -->
