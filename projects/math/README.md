@@ -129,4 +129,4 @@
 
 ## matburo
 
-> **_Tools: Python, PIL, scikit-learn, NumPy, Pandas, Seaborn, Matplotlib_**
+<!-- > **_Tools: Python, PIL, scikit-learn, NumPy, Pandas, Seaborn, Matplotlib_** -->
