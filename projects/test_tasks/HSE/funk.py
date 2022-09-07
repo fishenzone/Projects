@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
-from adjustText import adjust_text
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from adjustText import adjust_text
 
 
 def clean_data(df, col):

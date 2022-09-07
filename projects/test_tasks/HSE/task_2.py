@@ -1,7 +1,7 @@
-import matplotlib.pyplot as plt
 from adjustText import adjust_text
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
 from funk import read_data, plot_scatter
 
