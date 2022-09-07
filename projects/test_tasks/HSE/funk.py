@@ -37,11 +37,13 @@ def read_data(url):
 
 
 def label_point(x, y, val, ax):
-    data = pd.concat({"x": x, "y": y, "val": val}, axis=1)
-    ax.axis("off")
-    for i, point in data.iterrows():
-        texts = [ax.text(point["x"], point["y"], str(point["val"]))]
-        adjust_text(texts)
+  data = pd.concat({'x': x, 'y': y, 'val': val}, axis=1)
+  ax.axis('off')
+  texts = []
+  for i, point in data.iterrows():
+    text = [ax.text(point['x'], point['y'], str(point['val']))]
+    texts.extend(text)
+  adjust_text(texts)
 
 
 def plot_scatter(df, area):
