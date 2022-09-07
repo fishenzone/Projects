@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "HSE"
 version = "0.1.0"
-description = ""
-authors = ["Simon Mirovich <simonfrizen98@gmail.com>"]
+description = "test task"
+authors = ["Fishenzone"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
+matplotlib = "^3.5.3"
+numpy = "^1.19.2"
+seaborn = "^0.11.2"
+adjustText = "^0.7.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
