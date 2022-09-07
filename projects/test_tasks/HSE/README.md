@@ -2,11 +2,13 @@
 
 - ## Task 1
 
-  - <a href="https://colab.research.google.com/github/fishenzone/Projects/blob/notebook/projects/test_tasks/Ridex_GmbH/task_1_numpy.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-  - ### [Solution to task 1](https://github.com/fishenzone/Projects/blob/notebook/projects/test_tasks/Ridex_GmbH/task_1_numpy.ipynb "task_1")
+  - ### [script](https://github.com/fishenzone/Projects/blob/main/projects/test_tasks/HSE/task_1.py "script")
+  - ### [table](https://docs.google.com/spreadsheets/d/1XNCeaV2fH37indfGrmNQ2FzMGQwCsIA7F2net3bg_OQ/edit#gid=356725987 "table")
 
 - ## Task
-  - <a href="https://colab.research.google.com/github/fishenzone/Projects/blob/notebook/projects/test_tasks/Ridex_GmbH/task_2_pandas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-  - ### [Solution to task 2](https://github.com/fishenzone/Projects/blob/notebook/projects/test_tasks/Ridex_GmbH/task_2_pandas.ipynb "task_2")
+  - ### [script](https://github.com/fishenzone/Projects/blob/main/projects/test_tasks/HSE/task_2.py "script")
+  - ### [images](https://docs.google.com/spreadsheets/d/1XNCeaV2fH37indfGrmNQ2FzMGQwCsIA7F2net3bg_OQ/edit#gid=2017595297 "images")
 
-> **_Tools: Python, PIL, scikit-learn, NumPy, Pandas, Seaborn, Matplotlib_**
+#### The logic is mostly [here](https://github.com/fishenzone/Projects/blob/main/projects/test_tasks/HSE/funk.py "logic").
+
+> **_Tools: Python, NumPy, Pandas, Seaborn, Matplotlib_**
