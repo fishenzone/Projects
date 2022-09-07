@@ -8,7 +8,6 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 entrypoints = "*"
-jinja2 = "*"
 jsonschema = "*"
 numpy = "*"
 pandas = ">=0.18"

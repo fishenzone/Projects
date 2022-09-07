@@ -8,7 +8,7 @@ authors = ["Fishenzone"]
 python = "^3.8"
 matplotlib = "^3.5.3"
 numpy = "^1.19.2"
-seaborn = "^0.11.2"
+seaborn = "^0.11.1"
 adjustText = "^0.7.3"
 
 [tool.poetry.dev-dependencies]
